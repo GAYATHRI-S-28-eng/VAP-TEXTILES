@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dad's Shop</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .hero {
+            position: relative;
+            height: 400px;
+            background: url('https://source.unsplash.com/1600x900/?shop') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff4b2b;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ff416c;
+        }
+        .section {
+            padding: 50px;
+        }
+        .footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>Your Dad's Awesome Shop</header>
+    <div class="hero">Best Products, Best Prices!</div>
+    <div class="section">
+        <h2>Why Choose Us?</h2>
+        <p>We provide the best quality products at the most affordable prices. Visit us today!</p>
+        <a href="#contact" class="btn">Contact Us</a>
+    </div>
+    <div id="contact" class="section">
+        <h2>Get in Touch</h2>
+        <p>📍 Location: Your Shop Address Here</p>
+        <p>📞 Call Us: +91 XXXXXXXXXX</p>
+    </div>
+    <div class="footer">&copy; 2025 Your Dad's Shop. All rights reserved.</div>
+</body>
+</html>
